@@ -1,0 +1,68 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-color: rgb(105, 220, 130);
+    display: flex;
+    justify-content: space-around;
+    height: auto
+}
+
+.menu
+{
+    list-style-type: none;
+    background-color: #6A8D73;
+    padding: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    letter-spacing: 1px;
+}
+
+.menu li
+{
+    background-color: #FFE8C2;
+    padding: 20px;
+    display: flex;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items:center;
+}
+
+.tarjetitas
+{
+    display: flex;
+    padding: 50px;
+    gap: 2cm;
+    
+}
+
+.card
+{
+    background-color: #8DE4FF;
+    border: 1px solid black; 
+    
+}
+
+
+.card_image
+{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+
+
+.titleservices
+{
+    text-align: center;
+}
+

@@ -1,0 +1,54 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-color: rgb(105, 220, 130);
+    display: flex;
+    justify-content: space-around;
+    height: auto
+}
+
+.menu
+{
+    list-style-type: none;
+    background-color: #6A8D73;
+    padding: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    letter-spacing: 1px;
+}
+
+.menu li
+{
+    background-color: #FFE8C2;
+    padding: 20px;
+    display: flex;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items:center;
+}
+
+.imgcabezas
+{
+    float: right;
+}
+
+.quien
+{
+    margin-top: 4cm;
+    font-size: x-large;
+    color: #6A8D73;
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card
+{
+    display: table-row;
+}
